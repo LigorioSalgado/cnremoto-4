@@ -5,7 +5,30 @@ import { Map, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 
 function Home() {
   const position = [19.4204502, -99.1566862];
-  const data =  {
+  const data =[{
+	"type": "Polygon",
+	"coordinates": [
+	  [
+		[
+		  -99.1446590423584,
+		  19.42053979266161
+		],
+		[
+		  -99.13813591003418,
+		  19.40742581330915
+		],
+		[
+		  -99.1347885131836,
+		  19.41592573536579
+		],
+		[
+		  -99.1446590423584,
+		  19.42053979266161
+		]
+	  ]
+	]
+  },
+{
 	"type": "Polygon",
 	"coordinates": [
 	  [
@@ -31,7 +54,7 @@ function Home() {
 		]
 	  ]
 	]
-  }
+  } ]
 
   return (
     <>
