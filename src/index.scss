@@ -1,6 +1,10 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
 
+.sr-only {
+    display: none;
+  }
+
 .leaflet-container{
     height: 25rem;
     width: 100%;

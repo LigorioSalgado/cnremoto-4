@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './index.scss';
 import client from './graphql'
 import Routes from './Routes';
-import './index.scss';
+import 'leaflet-draw/dist/leaflet.draw.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
