@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> Simple render component 1`] = `
+<Fragment>
+  <label
+    htmlFor="prueb"
+  >
+    Prueba:
+  </label>
+  <input
+    className="form-control"
+    id="prueb"
+    name="prueb"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</Fragment>
+`;
