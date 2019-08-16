@@ -4,7 +4,7 @@ import { createUploadLink } from 'apollo-upload-client';
 import { onError } from 'apollo-link-error';
 import { ApolloLink } from 'apollo-link';
 
-const HTTP_HOST = 'http://localhost:4000';
+const HTTP_HOST = 'https://cintanegra4.herokuapp.com/';
 const httpLink = new createUploadLink({
   uri: HTTP_HOST,
 });
