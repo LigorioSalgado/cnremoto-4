@@ -45,7 +45,7 @@ class SignupComponent extends React.Component {
       <div>
         <Mutation mutation={SIGNUP} variables={this.state.userData}>
           {
-            (createUser, { data, error, loading }) => {(
+            (createUser, { data, error, loading }) => {
               if (data) console.log('SE HA REGISTRADO');
               if (error) console.log('HUBO UN ERROR');
               if (loading) console.log('ESTOY CARGANDO')
